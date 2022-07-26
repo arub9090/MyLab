@@ -59,7 +59,7 @@
 </div>
 
 <div class="container">
-    <!-- Example row of columns -->
+    <!-- Example row of columns ----->
     <div class="row">
         <div class="col-md-4">
             <h2>Git,Maven and GitHub</h2>
