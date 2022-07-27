@@ -23,6 +23,17 @@ pipeline{
             }
         }
 
+
+
+// stage 3 publish the artifact on the nexus repo
+    stage ("Publish to Nexus"){
+        steps {
+            nexusArtifactUploader artifacts: [[artifactId: 'VinayDevOpsLab', classifier: '', file: 'target/VinayDevOpsLab-0.0.4.war', type: 'war']], credentialsId: 'a4639f6b-04c7-4db8-b057-68c30a8931f1', groupId: 'com.vinaysdevopslab', nexusUrl: '172.20.10.125:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'ArifDevOpsLab-SNAPSHOT', version: '0.0.4'
+        }
+    }
+
+
+
      stage ('Deploy'){
         steps {
             echo 'Deploying.....'
