@@ -40,7 +40,7 @@ pipeline{
 
 
     // state 4 for utilizing the readMavenPom
-    stage ("Print the env Variables"){
+    stage ("Print the env Variables Now"){
         steps {
             echo "The Artifact ID is- '${ArtifactId}'"
             echo "Version is = '${Version}'"
