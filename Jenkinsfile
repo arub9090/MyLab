@@ -5,6 +5,12 @@ pipeline{
         maven 'maven'
     }
 
+    environment{
+        ArtifactId=readMavenPom().getArtifactId()
+        Version=readMavenPom().getVersion()
+        Name= readMavenPom().getName()
+    }
+
     stages {
         // Specify various stage with in stages
 
@@ -29,6 +35,15 @@ pipeline{
     stage ("Publish to Nexus"){
         steps {
             nexusArtifactUploader artifacts: [[artifactId: 'VinayDevOpsLab', classifier: '', file: 'target/VinayDevOpsLab-0.0.5-SNAPSHOT.war', type: 'war']], credentialsId: 'a4639f6b-04c7-4db8-b057-68c30a8931f1', groupId: 'com.vinaysdevopslab', nexusUrl: '172.20.10.125:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'ArifDevOpsLab-SNAPSHOT', version: '0.0.5-SNAPSHOT'
+        }
+    }
+
+
+    // state 4 for utilizing the readMavenPom
+    state ("Print the env Variables"){
+        steps {
+            echo "The Artifact ID is- '${ArtifactId}'"
+            echo "Version is = '${Version}'"
         }
     }
 
