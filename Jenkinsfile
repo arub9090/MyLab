@@ -5,11 +5,6 @@ pipeline{
         maven 'maven'
     }
 
-    environment{
-        ArtifactId=readMavenPom().getArtifactId()
-        Version=readMavenPom().getVersion()
-        Name= readMavenPom().getName()
-    }
 
     stages {
         // Specify various stage with in stages
@@ -38,15 +33,6 @@ pipeline{
         }
     }
 
-
-    // state 4 for utilizing the readMavenPom
-    stage ("Print the env Variables Now"){
-        steps {
-            echo "The Artifact ID is- '${ArtifactId}'"
-            echo "Version is = '${Version}'"
-            echo "Name will be : '${Name}"
-        }
-    }
 
 
 
