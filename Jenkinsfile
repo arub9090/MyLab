@@ -44,6 +44,7 @@ pipeline{
         steps {
             echo "The Artifact ID is- '${ArtifactId}'"
             echo "Version is = '${Version}'"
+            echo "Name will be : '${Name}"
         }
     }
 
