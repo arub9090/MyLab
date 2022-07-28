@@ -60,7 +60,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Hello</h1>
-        <p>This is ARIF RUBAYETS AWS Lab welcome all</p>
+        <p>This is ARIF RUBAYETS AWS Lab here</p>
         <p>
           <a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
         </p>
