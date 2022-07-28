@@ -79,7 +79,7 @@
           <h2>Git,Maven and GitHub</h2>
           <p>
             I have used Git kp newfor version controlling. Maven as a build tool. I
-            have used GitHub as my source code repository
+            have used GitfdHub as my source code repository
           </p>
           <p>
             <a class="btn btn-default" href="#" role="button"
