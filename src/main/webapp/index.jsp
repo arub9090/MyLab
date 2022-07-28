@@ -66,7 +66,7 @@
         </p>
         <p>
           <a class="btn btn-primary btn-lg" role="button"
-            >Success Yahoo!! more &raquo;</a
+            >Success Here!! more &raquo;</a
           >
         </p>
       </div>
