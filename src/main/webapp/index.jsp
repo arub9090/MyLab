@@ -78,7 +78,7 @@
         <div class="col-md-4">
           <h2>Git,Maven and GitHub</h2>
           <p>
-            I have used Git for version controlling. Maven as a build tool. I
+            I have used Git kp newfor version controlling. Maven as a build tool. I
             have used GitHub as my source code repository
           </p>
           <p>
