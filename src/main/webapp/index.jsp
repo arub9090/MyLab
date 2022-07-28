@@ -66,7 +66,7 @@
         </p>
         <p>
           <a class="btn btn-primary btn-lg" role="button"
-            >Success Alhumdulillah!!!  more &raquo;</a
+            >Success Alhumdulillah!!d!  more &raquo;</a
           >
         </p>
       </div>
