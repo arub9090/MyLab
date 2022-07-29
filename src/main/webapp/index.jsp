@@ -60,7 +60,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Hello</h1>
-        <p>This isd ARIF RUBAYETS AW5S- Lab Alhumdulillah !!! Allah</p>
+        <p>This isd ARIF RlUBAYETS AW5S- Lab Alhumdulillah !!! Allah</p>
         <p>
           <a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
         </p>
