@@ -60,7 +60,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Hello</h1>
-        <p>Thank YOu allah !!!</p>
+        <p>Thank YOu allah !!!!</p>
         <p>
           <a class="btn btn-primary btn-lg" role="button">Learn more Wow &raquo;</a>
         </p>
