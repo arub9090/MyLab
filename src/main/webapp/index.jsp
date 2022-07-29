@@ -62,7 +62,7 @@
         <h1>Hello</h1>
         <p>Allah Please help Me</p>
         <p>
-          <a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
+          <a class="btn btn-primary btn-lg" role="button">Learn more Wow &raquo;</a>
         </p>
         <p>
           <a class="btn btn-primary btn-lg" role="button"
